@@ -1,15 +1,21 @@
+$primary-color: #38D39F;
+
 @import 'components/header';
 @import 'components/banner';
 @import 'components/footer';
 @import 'components/contact';
+@import 'components/pricing';
+@import 'components/working';
+@import 'components/about';
 @import 'reset';
+
 
 *, *::before, *::after {
     box-sizing: border-box;
 }
 
 .container {
-    max-width: 1252px;
+    max-width: 1352px;
     margin: 0 auto;
     width: 95%;
 }

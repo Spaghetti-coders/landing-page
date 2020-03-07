@@ -13,19 +13,21 @@
 #contact-form .questions {
     h5 {
         margin-bottom: 20px;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 46px;
         font-weight: 400;
         text-align: center;
     }
 
-    p:first-of-type {
+    p {
         font-family: 'Roboto', sans-serif;
         font-size: 16px;
         font-weight: 400;
         color: black;
         margin-bottom: 50px;
         text-align: center;
+        line-height: 20px;
+        padding: 10px 50px;
     }
 }
 
@@ -42,13 +44,13 @@
         border-bottom: 1px solid grey;
         height: 40px;
         font-size: 20px;
-        font-family: 'Raleway', sans-serif;
-        color: dodgerblue;
+        font-family: 'Roboto', sans-serif;
+        color: darken(grey, 30%);
         margin-bottom: 30px;
     }
 
     p {
-        font-family: 'Open sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 12px;
         font-weight: normal;
         line-height: 17px;
@@ -60,20 +62,19 @@
         display: inline-block;
         padding: 0 40px;
         text-align: center;
-        line-height: 60px;
+        line-height: 50px;
         color: white;
-        background-color: dodgerblue;
-        box-shadow: 5px 10px 14px rgba(darken(rebeccapurple, 30%), 0.5);
+        background-color: $primary-color;
+        box-shadow: 5px 8px 8px rgba(darken(rebeccapurple, 30%), 0.5);
         text-decoration: none;
         font-size: 20px;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-weight: 700;
         border-radius: 35px;
         border: 0;
         opacity: 1;
         cursor: pointer;
         margin-top: 40px;
-        line-height: 70px;
         align-self: flex-end;
         margin-bottom: 100px;
     }
@@ -82,14 +83,14 @@
 ::placeholder {
     height: 40px;
     font-size: 15px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: grey;
     transition: all 500ms ease;
 }
 
 #contact-form label[for=name],
 #contact-form label[for=e-mail] {
-    color: dodgerblue;
+    color: $primary-color;
     text-transform: uppercase;
     font-family: 'Open sans', sans-serif;
     font-size: 11px;

@@ -1,0 +1,45 @@
+#about {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: $primary-color;
+    height: auto;
+
+    h2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 2rem;
+        margin: 50px 0 50px 0;
+        text-align: center;
+    }
+
+    .people {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+
+        .name {
+            color: white;
+            font-size: 25px;
+            font-weight: 700;
+            text-align: center;
+            padding: 30px;
+
+            span {
+                font-size: 20px;
+                font-weight: 400;
+            }
+
+            &::before {
+                content: "";
+                display: block;
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                background-color: seagreen;
+                margin: 15px;
+            }
+        }
+    }
+}
