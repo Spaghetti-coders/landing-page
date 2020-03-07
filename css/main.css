@@ -187,7 +187,7 @@
   height: 700px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url("../../assets/hugo-searching.png");
+  background-image: url("../assets/hugo-searching.png");
 }
 
 @media (min-width: 800px) {
