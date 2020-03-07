@@ -638,17 +638,17 @@ label[for=consent]::before {
 #working .container .box .box-image {
   width: 50%;
   height: 500px;
-  background-image: url("../../assets/hugo-co-workers.png");
+  background-image: url("../assets/hugo-co-workers.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 #working .container .box .image1 {
-  background-image: url("../../assets/hugo-customer-support.png");
+  background-image: url("../assets/hugo-customer-support.png");
 }
 
 #working .container .box .image3 {
-  background-image: url("../../assets/hugo-message-sent.png");
+  background-image: url("../assets/hugo-message-sent.png");
 }
 
 #about {
