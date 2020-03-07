@@ -1,0 +1,62 @@
+#banner-page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+
+    .banner-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 30px;
+            font-weight: 400;
+            letter-spacing: 0;
+            color: #000000;
+            padding: 10px;
+        }
+
+        p {
+            margin-top: 20px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        a {
+            display: inline-block;
+            padding: 0 40px;
+            text-align: center;
+            line-height: 60px;
+            color: white;
+            background-color: rebeccapurple;
+            box-shadow: 5px 10px 14px rgba(darken(rebeccapurple, 30%), 0.5);
+            text-decoration: none;
+            font-size: 20px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            border-radius: 35px;
+            border: 0;
+            opacity: 1;
+            cursor: pointer;
+            margin-top: 40px;
+            line-height: 70px;
+        }
+    }
+
+    .banner-image {
+        width: 600px;
+        height: 600px;
+        background-size: cover;
+        background-image: url('../../assets/background.png');
+    }
+}
+
+@media (min-width: 800px) {
+    #banner-page .banner-details a {
+        width: 400px;
+    }
+}
