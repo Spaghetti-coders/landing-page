@@ -638,7 +638,8 @@ label[for=consent]::before {
 
 #working .container .box .box-text p {
   padding: 30px;
-  font-size: 20px;
+  font-size: 21px;
+  line-height: 25px;
 }
 
 #working .container .box .box-image {
