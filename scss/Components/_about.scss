@@ -18,30 +18,85 @@
         align-items: center;
         flex-wrap: wrap;
         margin-bottom: 50px;
+        padding: 0 100px;
 
         .name {
-            color: white;
-            font-size: 22px;
-            font-weight: 700;
-            text-align: center;
-            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
 
-            span {
-                display: block;
-                padding-top: 12px;
-                font-size: 18px;
-                font-weight: 400;
+            .description {
+                color: white;
+                font-size: 22px;
+                font-weight: 700;
+                text-align: center;
+                padding-bottom: 30px;
+
+                span {
+                    display: block;
+                    padding-top: 10px;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
             }
-
-            &::before {
-                content: "";
+        
+            .img {
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
                 display: block;
-                width: 200px;
-                height: 200px;
+                width: 210px;
+                height: 210px;
                 border-radius: 50%;
-                background-color: seagreen;
                 margin: 15px;
+
+                &::after {
+                    content: "";
+                    top: 0;
+                    left: 0;
+                    display: block;
+                    width: 210px;
+                    height: 210px;
+                    border-radius: 50%;
+                    background: rgba(white, 0.05);
+                    border: 10px solid seagreen;
+                }
             }
+
+            .img1 {
+                background-image: url("../../assets/michal.jpg");
+            }
+
+            .img2 {
+                background-image: url("../../assets/simon.jpg");
+            }
+
+            .img3 {
+                background-image: url("../../assets/olek.jpg");
+            }
+
+            .img4 {
+                background-image: url("../../assets/marta.jpg");
+            }
+
+            .img5 {
+                background-image: url("../../assets/firmino.jpg");
+            }
+
+            .img6 {
+                background-image: url("../../assets/rahul.jpg");
+            }
+
+            .img7 {
+                background-image: url("../../assets/josipa.jpg");
+            }
+
+            .img8 {
+                background-image: url("../../assets/samuele.jpg");
+            }
+
         }
     }
 }

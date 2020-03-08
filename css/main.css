@@ -609,13 +609,14 @@ label[for=consent]::before {
 
 #working .container .box {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin: 10px;
 }
 
 #working .container .box .box-text {
   margin: 50px;
+  padding-bottom: 40px;
   background-color: #f2f2f2;
   width: 40%;
   min-height: 400px;
@@ -623,7 +624,7 @@ label[for=consent]::before {
   box-shadow: 10px 8px 0 #77e1bd;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   position: relative;
 }
 
@@ -647,7 +648,8 @@ label[for=consent]::before {
   height: 500px;
   background-image: url("../assets/hugo-message-sent.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
 }
 
 #working .container .box .image1 {
@@ -679,31 +681,85 @@ label[for=consent]::before {
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 50px;
+  padding: 0 100px;
 }
 
 #about .people .name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#about .people .name .description {
   color: white;
   font-size: 22px;
   font-weight: 700;
   text-align: center;
-  padding: 30px;
+  padding-bottom: 30px;
 }
 
-#about .people .name span {
+#about .people .name .description span {
   display: block;
-  padding-top: 12px;
+  padding-top: 10px;
   font-size: 18px;
   font-weight: 400;
 }
 
-#about .people .name::before {
-  content: "";
+#about .people .name .img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: block;
-  width: 200px;
-  height: 200px;
+  width: 210px;
+  height: 210px;
   border-radius: 50%;
-  background-color: seagreen;
   margin: 15px;
+}
+
+#about .people .name .img::after {
+  content: "";
+  top: 0;
+  left: 0;
+  display: block;
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 10px solid seagreen;
+}
+
+#about .people .name .img1 {
+  background-image: url("../../assets/michal.jpg");
+}
+
+#about .people .name .img2 {
+  background-image: url("../../assets/simon.jpg");
+}
+
+#about .people .name .img3 {
+  background-image: url("../../assets/olek.jpg");
+}
+
+#about .people .name .img4 {
+  background-image: url("../../assets/marta.jpg");
+}
+
+#about .people .name .img5 {
+  background-image: url("../../assets/firmino.jpg");
+}
+
+#about .people .name .img6 {
+  background-image: url("../../assets/rahul.jpg");
+}
+
+#about .people .name .img7 {
+  background-image: url("../../assets/josipa.jpg");
+}
+
+#about .people .name .img8 {
+  background-image: url("../../assets/samuele.jpg");
 }
 
 /*
