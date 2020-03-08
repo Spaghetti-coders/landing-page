@@ -731,35 +731,35 @@ label[for=consent]::before {
 }
 
 #about .people .name .img1 {
-  background-image: url("../../assets/michal.jpg");
+  background-image: url("../assets/michal.jpg");
 }
 
 #about .people .name .img2 {
-  background-image: url("../../assets/simon.jpg");
+  background-image: url("../assets/simon.jpg");
 }
 
 #about .people .name .img3 {
-  background-image: url("../../assets/olek.jpg");
+  background-image: url("../assets/olek.jpg");
 }
 
 #about .people .name .img4 {
-  background-image: url("../../assets/marta.jpg");
+  background-image: url("../assets/marta.jpg");
 }
 
 #about .people .name .img5 {
-  background-image: url("../../assets/firmino.jpg");
+  background-image: url("../assets/firmino.jpg");
 }
 
 #about .people .name .img6 {
-  background-image: url("../../assets/rahul.jpg");
+  background-image: url("../assets/rahul.jpg");
 }
 
 #about .people .name .img7 {
-  background-image: url("../../assets/josipa.jpg");
+  background-image: url("../assets/josipa.jpg");
 }
 
 #about .people .name .img8 {
-  background-image: url("../../assets/samuele.jpg");
+  background-image: url("../assets/samuele.jpg");
 }
 
 /*
