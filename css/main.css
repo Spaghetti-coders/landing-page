@@ -478,7 +478,7 @@ label[for=consent]::before {
 #pricing h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 2rem;
-  margin: 100px 0 50px 0;
+  margin: 100px 0 100px 0;
 }
 
 .pricing-box {
@@ -488,11 +488,11 @@ label[for=consent]::before {
 }
 
 .pricing-box .box {
-  height: 500px;
+  height: 620px;
   width: 400px;
   margin: 0;
-  padding: 0 60px;
-  background-color: #e2e0e0;
+  padding: 0 30px;
+  background-color: #f2f2f2;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -516,7 +516,7 @@ label[for=consent]::before {
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 700;
-  padding: 0 15px;
+  padding: 0 10px;
   line-height: 30px;
   text-align: center;
   margin-bottom: 40px;
@@ -528,36 +528,42 @@ label[for=consent]::before {
   font-size: 1rem;
   margin-bottom: 50px;
   color: rebeccapurple;
+  text-align: center;
 }
 
 .pricing-box .box h4 span {
   font-size: 3.3rem;
   font-weight: 500;
-  margin-right: 5px;
+  margin: 5px;
   text-shadow: 3px 3px white;
 }
 
+.pricing-box .box b {
+  margin-bottom: 30px;
+}
+
 .pricing-box .box li {
-  margin-bottom: 20px;
-  font-size: 20px;
+  margin-bottom: 13px;
+  font-size: 14px;
   font-family: 'Roboto', sans-serif;
   list-style: none;
   text-align: center;
+  line-height: 20px;
 }
 
 .pricing-box .box li::before {
   content: url("../../assets/Ckechmark-1.svg");
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
-.pricing-box .box1,
-.pricing-box .box3 {
+.pricing-box .box4,
+.pricing-box .box2 {
   background-color: #fafafa;
 }
 
-.pricing-box .box2 {
-  height: 550px;
-  background-color: #f2f2f2;
+.pricing-box .box3 {
+  height: 700px;
+  background-color: #e2e0e0;
 }
 
 @media (max-width: 1280px) and (min-width: 900px) {
@@ -638,7 +644,7 @@ label[for=consent]::before {
 #working .container .box .box-image {
   width: 50%;
   height: 500px;
-  background-image: url("../assets/hugo-co-workers.png");
+  background-image: url("../assets/hugo-message-sent.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -648,7 +654,7 @@ label[for=consent]::before {
 }
 
 #working .container .box .image3 {
-  background-image: url("../assets/hugo-message-sent.png");
+  background-image: url("../assets/hugo-co-workers.png");
 }
 
 #about {
@@ -676,14 +682,16 @@ label[for=consent]::before {
 
 #about .people .name {
   color: white;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 700;
   text-align: center;
   padding: 30px;
 }
 
 #about .people .name span {
-  font-size: 20px;
+  display: block;
+  padding-top: 12px;
+  font-size: 18px;
   font-weight: 400;
 }
 

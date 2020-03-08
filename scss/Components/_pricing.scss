@@ -8,7 +8,7 @@
     h2 {
         font-family: 'Roboto', sans-serif;
         font-size: 2rem;
-        margin: 100px 0 50px 0;
+        margin: 100px 0 100px 0;
     }
 }
 
@@ -18,11 +18,11 @@
     align-items: center;
 
     .box {
-        height: 500px;
+        height: 620px;
         width: 400px;
         margin: 0;
-        padding: 0 60px;
-        background-color: rgb(226, 224, 224);
+        padding: 0 30px;
+        background-color: #f2f2f2;
         border-radius: 5px;
         display: flex;
         flex-direction: column;
@@ -45,7 +45,7 @@
             font-size: 15px;
             text-transform: uppercase;
             font-weight: 700;
-            padding: 0 15px;
+            padding: 0 10px;
             line-height: 30px;
             text-align: center;
             margin-bottom: 40px;
@@ -57,37 +57,43 @@
             font-size: 1rem;
             margin-bottom: 50px;
             color: rebeccapurple;
+            text-align: center;
             
             span {
                 font-size: 3.3rem;
                 font-weight: 500;
-                margin-right: 5px;
+                margin: 5px;
                 text-shadow: 3px 3px white;
             }
         }
 
+        b {
+            margin-bottom: 30px;
+        }
+
         li {
-            margin-bottom: 20px;
-            font-size: 20px;
+            margin-bottom: 13px;
+            font-size: 14px;
             font-family: 'Roboto', sans-serif;
             list-style: none;
             text-align: center;
+            line-height: 20px;
 
             &::before {
                 content: url("../../assets/Ckechmark-1.svg");
-                margin-right: 20px;             
+                margin-right: 10px;             
             }
         }
     }
 
-    .box1,
-    .box3 {
+    .box4,
+    .box2 {
         background-color: lighten(#f2f2f2, 3%);
     }
 
-    .box2 {
-        height: 550px;
-        background-color: #f2f2f2;
+    .box3 {
+        height: 700px;
+        background-color: rgb(226, 224, 224);
     }
 
 

@@ -21,13 +21,15 @@
 
         .name {
             color: white;
-            font-size: 25px;
+            font-size: 22px;
             font-weight: 700;
             text-align: center;
             padding: 30px;
 
             span {
-                font-size: 20px;
+                display: block;
+                padding-top: 12px;
+                font-size: 18px;
                 font-weight: 400;
             }
 
