@@ -664,7 +664,7 @@ label[for=consent]::before {
   margin-top: 200px;
   display: flex;
   flex-direction: column;
-  background-color: #38D39F;
+  background-color: #d9d9d9;
   height: auto;
 }
 
@@ -673,6 +673,7 @@ label[for=consent]::before {
   font-size: 2rem;
   margin: 50px 0 50px 0;
   text-align: center;
+  color: black;
 }
 
 #about .people {
@@ -693,7 +694,7 @@ label[for=consent]::before {
 }
 
 #about .people .name .description {
-  color: white;
+  color: #4d2673;
   font-size: 22px;
   font-weight: 700;
   text-align: center;
@@ -705,6 +706,7 @@ label[for=consent]::before {
   padding-top: 10px;
   font-size: 18px;
   font-weight: 400;
+  font-style: italic;
 }
 
 #about .people .name .img {
@@ -712,22 +714,11 @@ label[for=consent]::before {
   background-position: center;
   background-repeat: no-repeat;
   display: block;
-  width: 210px;
-  height: 210px;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   margin: 15px;
-}
-
-#about .people .name .img::after {
-  content: "";
-  top: 0;
-  left: 0;
-  display: block;
-  width: 210px;
-  height: 210px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.05);
-  border: 10px solid seagreen;
+  border: 7px solid white;
 }
 
 #about .people .name .img1 {
