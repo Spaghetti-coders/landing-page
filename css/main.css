@@ -762,6 +762,13 @@ label[for=consent]::before {
   background-image: url("../assets/samuele.jpg");
 }
 
+@media (max-width: 715px) {
+  #about .people {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 /*
 html5doctor.com Reset Stylesheet
 v1.6.1

@@ -100,3 +100,10 @@
         }
     }
 }
+
+@media (max-width: 715px) {
+    #about .people {
+        display: flex;
+        justify-content: center;
+    }
+}
